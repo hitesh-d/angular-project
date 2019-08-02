@@ -6,7 +6,13 @@
   box-sizing: border-box;
 }
 
-body{ margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 16px;}
+body{ 
+  margin: 0; 
+  padding: 0; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 16px; 
+  overflow:hidden 
+}
 
 
 .width100Pc {
@@ -211,6 +217,7 @@ p {
 }
 
 /***** Custom Scroll for Chrome only *********/
+
 ::-webkit-scrollbar, body::-webkit-scrollbar {
   height: 6px;
   width: 6px;

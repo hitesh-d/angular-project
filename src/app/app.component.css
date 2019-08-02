@@ -22,3 +22,9 @@ header ul li.active{
   background: #0b2e13; 
   color: #fff
 }
+
+.dataContainer{
+  height: calc (100vh - 40px);
+  padding: 10px;
+  overflow-y: auto;
+}

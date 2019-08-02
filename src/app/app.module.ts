@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { StudentListComponent } from './student-list/student-list.component';
 import { AddStudentComponent } from './add-student/add-student.component';
 import { EditStudentComponent } from './edit-student/edit-student.component';
+import { StudentsService } from './services/students.service';
 
 
 const appRoutes:Routes =[
@@ -37,6 +38,7 @@ const appRoutes:Routes =[
   ],
   bootstrap: [
     AppComponent
-  ]
+  ],
+  providers: [StudentsService]
 })
 export class AppModule { }
