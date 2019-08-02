@@ -1,4 +1,11 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :) ABC D
-</p>
+<header class="mat-elevation-z3">
+  <ul>
+    <li routerLinkActive="active" routerLink="/dashboard" >Dashboard</li>
+    <li routerLinkActive="active" routerLink="/student-list">Student List</li>
+    <li routerLinkActive="active" routerLink="/add-student">Add Student</li>
+  </ul>
+</header>
+
+<div class="dataContainer">
+  <router-outlet></router-outlet>
+</div>

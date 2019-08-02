@@ -1,3 +1,24 @@
-p {
-  font-family: Lato;
+header{
+  height: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  background: #f6f6f6;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+header ul li{
+  margin: 0 20px 0 0;
+  padding: 0 10px;
+  float: left;
+  cursor: pointer;
+}
+
+header ul li.active{ 
+  background: #0b2e13; 
+  color: #fff
 }
